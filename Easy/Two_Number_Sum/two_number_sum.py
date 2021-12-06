@@ -1,5 +1,4 @@
 def twoNumberSum(array, targetSum):
-	output = []
     #Loop through the main array
     for i in enumerate(array):
         #Second loop to step to the right direction
@@ -8,4 +7,4 @@ def twoNumberSum(array, targetSum):
 			if i[0] != j[0]:
 				if i[1] + j[1] == targetSum:
 					return [i[1], j[1]]
-	return output
+	return []
